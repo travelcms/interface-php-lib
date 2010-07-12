@@ -1,0 +1,11 @@
+<?php
+
+/* Please set the username */
+define('TCMSINTERFACEUSER', '');
+
+/* Please set the password */
+define('TCMSINTERFACEPASSWORD', '');
+
+define('TCMSINTERFACEHOST', 'interface.travelcms.de');
+define('TCMSINTERFACELANGUAGE', 'DE');
+
