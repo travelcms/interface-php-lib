@@ -1,1 +1,2 @@
-phpunit --bootstrap bootstrap.php --coverage-html=coverage AllTests
+mkdir coverage
+phpunit --bootstrap bootstrap.php --log-junit coverage/log.xml --coverage-html=coverage AllTests

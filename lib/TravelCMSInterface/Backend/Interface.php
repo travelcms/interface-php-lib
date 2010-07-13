@@ -11,34 +11,34 @@
  */
 interface TravelCMSInterface_Backend_Interface
 {
-	
-	/**
-	 * 
-	 */
-	public function setHost($host);
-	
-	/**
-	 * 
-	 */
-	public function setUsername($username);
-	
-	/**
-	 * 
-	 */
-	public function setPassword($password);
-	
-	/**
-	 * 
-	 */
-	public function getRequest($path);
-	
-	/**
-   *
-	 */
-	public function postRequest($path, $body);
-		
-  /**
-   * 
-   */
-	public function deleteRequest($path);
+    /**
+     * 
+     */
+    public function setHost($host);
+
+    /**
+     * 
+     */
+    public function setUsername($username);
+
+    /**
+     * 
+     */
+    public function setPassword($password);
+
+    /**
+     * 
+     */
+    public function getRequest($path);
+
+    /**
+     *
+     */
+    public function postRequest($path, $body);
+
+    /**
+     * 
+     */
+    public function deleteRequest($path);
+    
 }
